@@ -1,7 +1,8 @@
 language: perl
 
 install:
-    cpanm --installdeps .
+    - cpanm --installdeps .
+    - cpanm XMLRPC::Test
 
 perl:
     - "5.26"
